@@ -1,1 +1,5 @@
-
+name: Crates
+versión: 1.0.0
+main: MiTech\Crates\Main
+author: MiTech
+website: https://github.com/MiTech-MCBE
