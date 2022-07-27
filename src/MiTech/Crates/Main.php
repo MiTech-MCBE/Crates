@@ -3,7 +3,7 @@ namespace MiTech\Crates;
 use pocketmine\plugin\PluginBase; 
 use pocketmine\utils\SingletonTrait; 
   
-class TheBridge extends PluginBase { 
+class Main extends PluginBase { 
       
      use SingletonTrait; 
       
