@@ -5,6 +5,7 @@
 */
 namespace MiTech\Crates;
 
+use MiTech\Crates\crate\CrateManager;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\SingletonTrait;
 
@@ -18,6 +19,7 @@ class Main extends PluginBase
    }
    public function onEnable(): void
    {
+      if (!is_dir($this->getDataFolder(). "/crates/")) @mkdir($this->getDataFolder(). "/crates/");
 
    }
    public function onDisable(): void
